@@ -16,16 +16,16 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>git clone https://github.com/nasa-jpl-memex/GeoParser.git
 
 ## Navigate in the Docker to run the compose-d ##
-<br>cd 
+cd 
 <br>cd GeoParser/Docker
 <br>docker-compose up -d
 
 # Activate a python virtual environment (venv)
-<br>python3 -m venv myenv
+python3 -m venv myenv
 <br>source myenv/bin/activate
 
 # Install the required packages and libraries
-<br> pip install jupyterlab notebook pandas pysolr requests tqdm
+pip install jupyterlab notebook pandas pysolr requests tqdm
 
 # Create a folder for your dataset, here I choose to do it in the example folder
 <br>mkdir /root/GeoParser/examples/haunted_places
@@ -48,13 +48,12 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>cd /root/GeoParser/examples/haunted_places
 
 # Optional if want to test covid19 metadata.csv file, 
-<br>but don't need this, you can upload your own haunted file as metadata.cs
+but don't need this, you can upload your own haunted file as metadata.cs
 <br>./download-metadata.sh 
 
 # Need this
-<br>chmod +x create-core-haunted.sh
+chmod +x create-core-haunted.sh
 <br>./create-core-haunted.sh
-
 <br>chmod +x add-fields-haunted.sh
 <br>./add-fields-haunted.sh
 
@@ -70,7 +69,7 @@ This repository exposes how to visualize locations extracted from a dataset usin
 
 ####
 # In the Django web interface
-<br>Set Domain Name to haunted_index.
+Set Domain Name to haunted_index.
 <br>Set Index Path to http://localhost:8983/solr/haunted/
 <br>Click on add index
 <br>Click add index to store the index of the domain in the database.
@@ -78,14 +77,14 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>Click on GeoParse button, and then wait (takes ~10 minutes)
 <br>Click on View button
 ![image (1)](https://github.com/user-attachments/assets/d182a4b7-2c9a-4227-89ae-a5e3d19709c2)
-<br>You have to make sure that you select haunted_index in the index pane
+You have to make sure that you select haunted_index in the index pane
 <br>
 <br>Output Sample
 ![haunted_places_map](https://github.com/user-attachments/assets/2572be23-c1cc-4207-8bb6-d353ef2ae999)
 
 ###
 # Other helpful commands #
-<br>But not necessary
+But not necessary
 - Manage Java version
 <br>java -version
 <br>sudo update-alternatives --config java
@@ -111,7 +110,6 @@ curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIn
 # Riskier if running other services with other dockers
 - Force-stops all running containers on your system, not just related to the GeoParser
 <br>docker stop $(docker ps -a -q)
-
 - Remove all containers
 <br>docker rm $(docker ps -a -q)
 
