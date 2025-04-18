@@ -3,7 +3,9 @@ This repository exposes how to visualize locations extracted from a dataset usin
 
 <br> By Sena London, MS in Applied Data Science Student @ USC
 <br>Spring 2025
-<br>Source: https://github.com/nasa-jpl-memex/GeoParser
+<br>Source:
+<br>https://github.com/nasa-jpl-memex/GeoParser
+<br>https://www.kaggle.com/datasets/sujaykapadnis/haunted-places
 
 # Open a terminal and run
 <br>Since Solr server run with Java version 8, Make sure java8 is running 
