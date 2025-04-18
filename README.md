@@ -110,8 +110,8 @@ cd ~/GeoParser/Docker
 
 Riskier if running other services with other dockers
 - Force-stops all running containers on your system, not just related to the GeoParser
-docker stop $(docker ps -a -q)
+<br>docker stop $(docker ps -a -q)
 - Remove all containers
-docker rm $(docker ps -a -q)
+<br>docker rm $(docker ps -a -q)
 
 
