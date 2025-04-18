@@ -1,7 +1,7 @@
 # Interactive-map-of-locations-extracted-from-the-haunted-places-dataset-using-NASA-JPL-MEMEX
 This repository exposes how to visualize locations extracted from a dataset using the NASA-JPL-MEMEX GeoParser
 
-<br>This is ReadMe Update for nasa-jpl-memex/GeoParser
+This is ReadMe Update for nasa-jpl-memex/GeoParser
 <br> By Sena London, MS in Applied Data Science Student @ USC
 <br>Spring 2025
 <br>Source: https://github.com/nasa-jpl-memex/GeoParser
