@@ -8,7 +8,7 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>https://www.kaggle.com/datasets/sujaykapadnis/haunted-places
 
 # Open a terminal and run
-Since Solr server run with Java version 8, Make sure java8 is running 
+- Since Solr server run with Java version 8, Make sure java8 is running 
 <br>sudo update-alternatives --config java
 <br>java -version
 
