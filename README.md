@@ -56,7 +56,7 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>chmod +x add-fields-haunted.sh
 <br>./add-fields-haunted.sh
 
-# Run jupyther in the dataset directory "haunted_places" directory
+# Run jupyther in the dataset directory "haunted_places"
 <br>cd /root/GeoParser/examples/haunted_places
 <br>jupyter notebook --allow-root
 <br>run the ingest_haunted_data jupiter files
