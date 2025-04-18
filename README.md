@@ -97,7 +97,7 @@ This repository exposes how to visualize locations extracted from a dataset usin
 - Stop Solr
 <br>bin/solr stop
 
-# wipe the existing core data if run covid data before
+# Wipe the existing core data if run covid data before
 curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIndex=true&deleteDataDir=true&deleteInstanceDir=true"
 # And recreate the core
 ./create-core-haunted.sh
