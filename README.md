@@ -59,6 +59,8 @@ This repository exposes how to visualize locations extracted from a dataset usin
 # Run jupyther in the dataset directory "haunted_places" directory
 <br>cd /root/GeoParser/examples/haunted_places
 <br>jupyter notebook --allow-root
+<br>run the ingest_haunted_data jupiter files
+![image (3)](https://github.com/user-attachments/assets/34f4f053-2082-4c12-9f72-27cf52577e30)
 
 ####
 # Open the Django application in your web browser
@@ -73,6 +75,7 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>Click on Database Icon Tab
 <br>Click on GeoParse button, and then wait (takes ~10 minutes)
 <br>Click on View button
+![image (1)](https://github.com/user-attachments/assets/d182a4b7-2c9a-4227-89ae-a5e3d19709c2)
 <br>You have to make sure that you select haunted_index in the index pane
 <br>
 <br>Output Sample
