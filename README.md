@@ -45,7 +45,7 @@ mkdir /root/GeoParser/examples/haunted_places
 # Copy manually your dataset.csv to the dataset folder (haunted_places)
 
 # Now go to the terminal and run
-<br>cd /root/GeoParser/examples/haunted_places
+cd /root/GeoParser/examples/haunted_places
 
 # Optional if want to test covid19 metadata.csv file, 
 but don't need this, you can upload your own haunted file as metadata.cs
@@ -65,7 +65,7 @@ chmod +x create-core-haunted.sh
 
 ####
 # Open the Django application in your web browser
-<br>http://localhost:8000
+http://localhost:8000
 
 ####
 # In the Django web interface
@@ -86,11 +86,11 @@ You have to make sure that you select haunted_index in the index pane
 # Other helpful commands #
 But not necessary
 - Manage Java version
-<br>java -version
+java -version
 <br>sudo update-alternatives --config java
 # Not needed (compose start it)
 - Start Solr
-<br>cd
+cd
 <br>cd GeoParser/Solr/solr-5.3.1
 <br>bin/solr start
 - Stop Solr
@@ -103,14 +103,14 @@ curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIn
 
 # Then add field and rerun the ingest
 - stop the docker
-<br>Cleanest way 
+Cleanest way 
 <br>cd ~/GeoParser/Docker
 <br>docker-compose down
 
-# Riskier if running other services with other dockers
+Riskier if running other services with other dockers
 - Force-stops all running containers on your system, not just related to the GeoParser
-<br>docker stop $(docker ps -a -q)
+docker stop $(docker ps -a -q)
 - Remove all containers
-<br>docker rm $(docker ps -a -q)
+docker rm $(docker ps -a -q)
 
 
