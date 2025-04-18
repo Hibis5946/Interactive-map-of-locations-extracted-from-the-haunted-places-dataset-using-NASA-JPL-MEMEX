@@ -28,7 +28,7 @@ python3 -m venv myenv
 pip install jupyterlab notebook pandas pysolr requests tqdm
 
 # Create a folder for your dataset, here I choose to do it in the example folder
-<br>mkdir /root/GeoParser/examples/haunted_places
+mkdir /root/GeoParser/examples/haunted_places
 <br>You can also do it manually by opening the GeoParser folder and create
 
 # Copy manually the following files, from the covid19 folder and paste in the dataset folder (haunted_places)
