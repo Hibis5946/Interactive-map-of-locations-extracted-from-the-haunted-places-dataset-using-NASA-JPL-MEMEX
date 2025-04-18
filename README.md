@@ -75,7 +75,9 @@ This is ReadMe Update for nasa-jpl-memex/GeoParser
 <br>Click on GeoParse button, and then wait (takes ~10 minutes)
 <br>Click on View button
 <br>You have to make sure that you select haunted_index in the index pane
-
+<br>
+<br>Output Sample
+![haunted_places_map](https://github.com/user-attachments/assets/2572be23-c1cc-4207-8bb6-d353ef2ae999)
 
 ###
 # Other helpful commands #
