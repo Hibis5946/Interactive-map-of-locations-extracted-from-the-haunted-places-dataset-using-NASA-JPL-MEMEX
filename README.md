@@ -93,9 +93,9 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>bin/solr stop
 
 # wipe the existing core data if run covid data before
-<br>curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIndex=true&deleteDataDir=true&deleteInstanceDir=true"
+curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIndex=true&deleteDataDir=true&deleteInstanceDir=true"
 # And recreate the core
-<br>./create-core-haunted.sh
+./create-core-haunted.sh
 
 # Then add field and rerun the ingest
 - stop the docker
