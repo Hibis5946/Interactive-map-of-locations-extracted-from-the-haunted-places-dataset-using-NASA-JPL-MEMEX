@@ -81,11 +81,9 @@ This repository exposes how to visualize locations extracted from a dataset usin
 ###
 # Other helpful commands #
 <br>But not necessary
-
 - Manage Java version
 <br>java -version
 <br>sudo update-alternatives --config java
-
 # Not needed (compose start it)
 - Start Solr
 <br>cd
@@ -101,14 +99,13 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>./create-core-haunted.sh
 
 # Then add field and rerun the ingest
-
 - stop the docker
 <br>Cleanest way 
 <br>cd ~/GeoParser/Docker
 <br>docker-compose down
 
 # Riskier if running other services with other dockers
-<br>Force-stops all running containers on your system, not just related to the GeoParser
+Force-stops all running containers on your system, not just related to the GeoParser
 <br>docker stop $(docker ps -a -q)
 
 - Remove all containers
