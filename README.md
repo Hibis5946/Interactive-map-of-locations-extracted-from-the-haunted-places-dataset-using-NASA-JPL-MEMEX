@@ -91,7 +91,6 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>bin/solr start
 - Stop Solr
 <br>bin/solr stop
-#
 
 # wipe the existing core data if run covid data before
 <br>curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIndex=true&deleteDataDir=true&deleteInstanceDir=true"
@@ -105,7 +104,7 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>docker-compose down
 
 # Riskier if running other services with other dockers
-Force-stops all running containers on your system, not just related to the GeoParser
+- Force-stops all running containers on your system, not just related to the GeoParser
 <br>docker stop $(docker ps -a -q)
 
 - Remove all containers
