@@ -8,7 +8,7 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>https://www.kaggle.com/datasets/sujaykapadnis/haunted-places
 
 # Open a terminal and run
-- Since Solr server run with Java version 8, Make sure java8 is running 
+- Since Solr server run with Java version 8, Make sure java8 is running :
 <br>sudo update-alternatives --config java
 <br>java -version
 
@@ -85,15 +85,15 @@ You have to make sure that you select haunted_index in the index pane
 ###
 # Other helpful commands #
 But not necessary
-- Manage Java version
+- Manage Java version:
 java -version
 <br>sudo update-alternatives --config java
 # Not needed (compose start it)
-- Start Solr
+- Start Solr:
 cd
 <br>cd GeoParser/Solr/solr-5.3.1
 <br>bin/solr start
-- Stop Solr
+- Stop Solr:
 <br>bin/solr stop
 
 # Wipe the existing core data if run covid data before
@@ -104,14 +104,14 @@ curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIn
 # Then add field and rerun the ingest
 - stop the docker
 
-Cleanest way 
-cd ~/GeoParser/Docker
+Cleanest way:
+<br>cd GeoParser/Docker
 <br>docker-compose down
 
 Riskier if running other services with other dockers
-- Force-stops all running containers on your system, not just related to the GeoParser
+- Force-stops all running containers on your system, not just related to the GeoParser:
 <br>docker stop $(docker ps -a -q)
-- Remove all containers
+- Remove all containers:
 <br>docker rm $(docker ps -a -q)
 
 
