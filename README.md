@@ -86,7 +86,7 @@ You have to make sure that you select haunted_index in the index pane
 # Other helpful commands #
 But not necessary
 - Manage Java version:
-java -version
+<br>java -version
 <br>sudo update-alternatives --config java
 # Not needed (compose start it)
 - Start Solr:
