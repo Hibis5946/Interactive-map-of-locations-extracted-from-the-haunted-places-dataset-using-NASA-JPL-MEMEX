@@ -74,7 +74,7 @@ Set Domain Name to haunted_index.
 <br>Click on add index
 <br>Click add index to store the index of the domain in the database.
 <br>Click on Database Icon Tab
-<br>Click on GeoParse button, and then wait (takes ~10 minutes)
+<br>Click on GeoParse button, and then wait (takes some minutes)
 <br>Click on View button
 ![image (1)](https://github.com/user-attachments/assets/d182a4b7-2c9a-4227-89ae-a5e3d19709c2)
 You have to make sure that you select haunted_index in the index pane
