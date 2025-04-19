@@ -90,7 +90,7 @@ java -version
 <br>sudo update-alternatives --config java
 # Not needed (compose start it)
 - Start Solr:
-cd
+<br>cd
 <br>cd GeoParser/Solr/solr-5.3.1
 <br>bin/solr start
 - Stop Solr:
