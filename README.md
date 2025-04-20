@@ -13,16 +13,16 @@ This repository exposes how to visualize locations extracted from a dataset usin
 <br>java -version
 
 # Clone the MEMEX GeoParser from the nasa-jpl-memex repository
-<br>git clone https://github.com/nasa-jpl-memex/GeoParser.git
+git clone https://github.com/nasa-jpl-memex/GeoParser.git
 
 # Clone the Haunted_places cleaned metadata, the associated core files and script
-<br>git clone https://github.com/Hibis5946/Interactive-map-of-locations-extracted-from-the-haunted-places-dataset-using-NASA-JPL-MEMEX.git
+git clone https://github.com/Hibis5946/Interactive-map-of-locations-extracted-from-the-haunted-places-dataset-using-NASA-JPL-MEMEX.git
 <br>Haunted_places file: coming soon
 
-# Move the Haunted_places file and paste it in:
-<br>GeoParser/examples/
+# Move the Haunted_places file into the following directory:
+GeoParser/examples/
 
-## Navigate in the Docker to run the compose-d ##
+## Navigate into the Docker directory and run:
 cd 
 <br>cd GeoParser/Docker
 <br>docker-compose up -d
