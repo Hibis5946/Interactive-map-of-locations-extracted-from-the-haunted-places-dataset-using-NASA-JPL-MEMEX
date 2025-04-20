@@ -105,9 +105,12 @@ curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIn
 <br>Cleanest way:
 <br>cd GeoParser/Docker
 <br>docker-compose down
+<br>
 <br>Riskier if running other services with other dockers
+<br>
 <br>Force-stops all running containers on your system, not just related to the GeoParser:
 <br>docker stop $(docker ps -a -q)
+<br>
 <br>Remove all containers:
 <br>docker rm $(docker ps -a -q)
 
