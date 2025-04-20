@@ -102,7 +102,7 @@ curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIn
 
 # Add field and rerun the ingest
 - stop the docker
-Cleanest way:
+<br>Cleanest way:
 <br>cd GeoParser/Docker
 <br>docker-compose down
 
