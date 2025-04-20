@@ -79,7 +79,7 @@ mkdir /root/GeoParser/examples/dataset_name
 - Ingest-haunted-data
 # Copy manually your dataset.csv to the dataset folder 
 
-# Personalyze the previous file to match your current dataset schema
+# Modify the previous core, ingest files to match your current dataset schema
 Open the cores and script file and change haunted and the dataset name into your own dataset name
 
 #
@@ -97,12 +97,11 @@ Open the cores and script file and change haunted and the dataset name into your
 
 # Wipe the existing core data if run covid data before
 curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIndex=true&deleteDataDir=true&deleteInstanceDir=true"
-# And recreate the core
+# Recreate the core
 ./create-core-haunted.sh
 
-# Then add field and rerun the ingest
+# Add field and rerun the ingest
 - stop the docker
-
 Cleanest way:
 <br>cd GeoParser/Docker
 <br>docker-compose down
