@@ -94,7 +94,7 @@ Open the cores and script file and change haunted and the dataset name into your
 - Stop Solr:
 <br>bin/solr stop
 
-# Wipe the existing core data if run covid data before
+# Wipe the existing core data
 curl "http://localhost:8983/solr/admin/cores?action=UNLOAD&core=haunted&deleteIndex=true&deleteDataDir=true&deleteInstanceDir=true"
 # Recreate the core
 ./create-core-haunted.sh
