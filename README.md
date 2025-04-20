@@ -67,7 +67,6 @@ You have to make sure that you select haunted_index in the index pane
 <br>Output Sample
 ![haunted_places_map](https://github.com/user-attachments/assets/2572be23-c1cc-4207-8bb6-d353ef2ae999)
 
-<br>
 # Using your own dataset
 # Create a folder for your dataset, 
 mkdir /root/GeoParser/examples/dataset_name
