@@ -34,39 +34,17 @@ python3 -m venv myenv
 # Install the required packages and libraries
 pip install jupyterlab notebook pandas pysolr requests tqdm
 
-# Create a folder for your dataset, here I choose to do it in the example folder
-mkdir /root/GeoParser/examples/haunted_places
-<br>You can also do it manually by opening the GeoParser folder and create
-
-# Copy manually the following files, from the covid19 folder and paste in the dataset folder (haunted_places)
-- create-core.sh
-- add-fields.sh
-- Ingest COVID data
-
-# Modify the previous file to match your folder name or how you want
-- Open the files and change covid19 to haunted
-- You can personalize the filename to your dataset
-- Change the core name from Covid19 to Haunted or personalize name
-- Personalize "Ingest COVID data" to your dataset name and column 
-
-# Copy manually your dataset.csv to the dataset folder (haunted_places)
-
-# Now go to the terminal and run
+# Navigate into the dataset (haunted_places) directory 
 cd /root/GeoParser/examples/haunted_places
 
-# Optional if want to test covid19 metadata.csv file, 
-but don't need this, you can upload your own haunted file as metadata.cs
-<br>./download-metadata.sh 
-
-# Need this
+# Activate cores in thge dataset (haunted_places) directory
 chmod +x create-core-haunted.sh
 <br>./create-core-haunted.sh
 <br>chmod +x add-fields-haunted.sh
 <br>./add-fields-haunted.sh
 
-# Run jupyther in the dataset directory "haunted_places"
-<br>cd /root/GeoParser/examples/haunted_places
-<br>jupyter notebook --allow-root
+# Run jupyther in the same directory "haunted_places"
+jupyter notebook --allow-root
 <br>run the ingest_haunted_data jupiter files
 ![image (3)](https://github.com/user-attachments/assets/34f4f053-2082-4c12-9f72-27cf52577e30)
 
@@ -89,9 +67,23 @@ You have to make sure that you select haunted_index in the index pane
 <br>Output Sample
 ![haunted_places_map](https://github.com/user-attachments/assets/2572be23-c1cc-4207-8bb6-d353ef2ae999)
 
-###
+<br>
+# Using your own dataset
+# Create a folder for your dataset, 
+mkdir /root/GeoParser/examples/dataset_name
+<br>You can also do it manually by opening the GeoParser folder and create
+
+# Copy manually the following files, and paste in the newly dataset folder
+- create-haunted-core.sh
+- add-haunted-fields.sh
+- Ingest-haunted-data
+# Copy manually your dataset.csv to the dataset folder 
+
+# Personalyze the previous file to match your current dataset schema
+Open the cores and script file and change haunted and the dataset name into your own dataset name
+
+#
 # Other helpful commands #
-But not necessary
 - Manage Java version:
 <br>java -version
 <br>sudo update-alternatives --config java
