@@ -1,0 +1,3 @@
+[submodule "GeoParser"]
+	path = GeoParser
+	url = https://github.com/nasa-jpl-memex/GeoParser.git
