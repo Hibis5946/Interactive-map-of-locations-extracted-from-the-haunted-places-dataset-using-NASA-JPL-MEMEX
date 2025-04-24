@@ -77,6 +77,7 @@ mkdir /root/GeoParser/examples/dataset_name
 - create-haunted-core.sh
 - add-haunted-fields.sh
 - Ingest-haunted-data
+- metadata.csv
 
 # Copy manually your dataset.csv to the dataset folder 
 
