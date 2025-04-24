@@ -73,9 +73,11 @@ mkdir /root/GeoParser/examples/dataset_name
 <br>You can also do it manually by opening the GeoParser folder and create
 
 # Copy manually the following files, and paste in the newly dataset folder
+<br>Download the Haunted_places file containing the following files and paste it in the example folder
 - create-haunted-core.sh
 - add-haunted-fields.sh
 - Ingest-haunted-data
+
 # Copy manually your dataset.csv to the dataset folder 
 
 # Modify the previous core, ingest files to match your current dataset schema
