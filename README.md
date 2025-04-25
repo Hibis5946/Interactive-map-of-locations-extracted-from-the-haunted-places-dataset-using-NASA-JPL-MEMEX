@@ -34,10 +34,17 @@ python3 -m venv myenv
 # Install the required packages and libraries
 pip install jupyterlab notebook pandas pysolr requests tqdm
 
+# Copy manually the following files
+<br>Download the Haunted_places directory containing the following files and paste it in the example folder
+- create-haunted-core.sh
+- add-haunted-fields.sh
+- Ingest-haunted-data
+- metadata.csv
+
 # Navigate into the dataset (haunted_places) directory 
 cd /root/GeoParser/examples/haunted_places
 
-# Activate cores in thge dataset (haunted_places) directory
+# Activate cores in the dataset (haunted_places) directory
 chmod +x create-core-haunted.sh
 <br>./create-core-haunted.sh
 <br>chmod +x add-fields-haunted.sh
