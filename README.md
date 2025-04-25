@@ -17,7 +17,6 @@ git clone https://github.com/nasa-jpl-memex/GeoParser.git
 
 # Clone the Haunted_places cleaned metadata, the associated core files and script
 git clone https://github.com/Hibis5946/Interactive-map-of-locations-extracted-from-the-haunted-places-dataset-using-NASA-JPL-MEMEX.git
-<br>Haunted_places file: coming soon
 
 # Move the Haunted_places file into the following directory:
 GeoParser/examples/
